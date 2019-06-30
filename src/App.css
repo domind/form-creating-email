@@ -1,33 +1,32 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.left{
+  text-align: left
+}
 .App {
   text-align: center;
+ 
+  background-color: rgb(221, 235, 247);
+  color: rgb(0, 90, 165);
+  font-family: 'Calibri Light','Open Sans', sans-serif;
+  font-weight: 600;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Title{
+  background-color:rgb(0, 90, 165);
+  color:white;
+  font-family: 'Calibri Light','Open Sans', sans-serif;
+  font-weight: 300;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.line{
+  height: 3px;
+  background-color: rgb(0, 90, 165);;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.warning{
+  color: red;
+  font-weight: bold;
 }
