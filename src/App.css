@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.left{
+  text-align: left
+}
+.App {
+  text-align: center;
+ 
+  background-color: rgb(221, 235, 247);
+  color: rgb(0, 90, 165);
+  font-family: 'Calibri Light','Open Sans', sans-serif;
+  font-weight: 600;
+}
+.Title{
+  background-color:rgb(0, 90, 165);
+  color:white;
+  font-family: 'Calibri Light','Open Sans', sans-serif;
+  font-weight: 300;
+}
+.line{
+  height: 3px;
+  background-color: rgb(0, 90, 165);;
+}
+.warning{
+  color: red;
+  font-weight: bold;
+}
